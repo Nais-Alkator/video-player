@@ -19,10 +19,13 @@
     .play-button, .pause-button {
       border-style: none; cursor: pointer; color: white; background-color: transparent;
     }
+    .shadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+   }
   </style>
 </head>
 <body>
-  <div class="player-container" id="player">
+  <div class="player-container shadow" id="player">
       <div class="js-video-container video-container"></div>
       <div class="buttons-container">
         <button class="js-play-button play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
