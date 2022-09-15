@@ -3,47 +3,8 @@
 <head>
   <title>Плеер</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <style type="text/css">
-    .player-container {
-      width: 800px;
-      height: 600px;
-      display: flex;
-      flex-direction: column;
-
-    }
-
-    .video-container {
-      flex-grow: 1;
-    }
-
-    .buttons-container {
-      background-color: black;
-      display: flex;
-    }
-
-    .play-button, .pause-button, .volume-button, .mute-button, .fullscreen-button {
-      border-style: none;
-      cursor: pointer;
-      color: white;
-      background-color: transparent;
-      font-size: large;
-      margin-bottom: 10px;
-      margin-left: 5px;
-      width: 20px;
-      height: 20px;
-
-
-    }
-
-    .fullscreen-button {
-      margin-left: 90%;
-    }
-
-    .shadow {
-      box-shadow: 0 0 10px rgba(0,0,0,0.9);
-   }
-  </style>
+  <link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
   <div class="player-container shadow" id="player">
@@ -60,7 +21,7 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-  <script src="player.js"></script>
+  <script src="static/player.js"></script>
   <script type="text/javascript">
     createPlayer({elementId: 'player'});
   </script>
