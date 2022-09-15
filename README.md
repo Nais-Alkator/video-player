@@ -12,6 +12,7 @@
 ## Примеры
 
 - Страница с минимальными настройками — [index.html](./index.html)
+- [Демо проекта](https://nais-alkator.github.io/video-player/)
 
 ## Как подключить
 
