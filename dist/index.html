@@ -12,16 +12,22 @@
       flex-direction: column;
 
     }
+
     .video-container {
       flex-grow: 1;
-
     }
+
     .buttons-container {
       background-color: black;
     }
-    .play-button, .pause-button {
-      border-style: none; cursor: pointer; color: white; background-color: transparent;
+
+    .play-button, .pause-button, .volume-button, .mute-button {
+      border-style: none;
+      cursor: pointer;
+      color: white;
+      background-color: transparent;
     }
+
     .shadow {
       box-shadow: 0 0 10px rgba(0,0,0,0.9);
    }
@@ -33,9 +39,11 @@
       <div class="buttons-container">
         <button class="js-play-button play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
         <button class="js-pause-button pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
+        <button class="js-volume-button volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+        <button class="js-mute-button mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        
       </div>
   </div>
-
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
