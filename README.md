@@ -5,16 +5,13 @@
 
 Минимальный набор инструментов, который нужен для создания своего видеоплеера. Все элементы можно кастомизировать на свой вкус и цвет.
 
-![max example](screenshots/max.gif)
+![min example](screenshots/min.png)
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
 ## Примеры
 
-Два рабочих примера:
-
-- Страница с минимальными настройками — [example_min.html](./example_min.html)
-- Страница с максимальными настройками — [example_max.html](./example_max.html)
+- Страница с минимальными настройками — [index.html](./index.html)
 
 ## Как подключить
 
