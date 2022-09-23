@@ -28,7 +28,12 @@
     }
 
     .fullscreen-button {
-      margin-left: 90%;
+      margin-right: 10px;
+
+    }
+
+    .greedy-block {
+      flex-grow: 5;
     }
 
     .shadow {
